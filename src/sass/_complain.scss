@@ -1,0 +1,70 @@
+.complain {
+  background-color: $blue-color-2;
+  padding: 80px 0;
+  &-container {
+    max-width: 1320px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  &-left {
+    flex: 7;
+    &__title {
+      border-radius: 15px;
+      border: 2px solid #fff;
+      margin: 40px 0px 20px;
+      padding: 10px;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: center;
+      max-width: 450px;
+      width: 100%;
+    }
+    &__content {
+      display: flex;
+      &-left {
+        flex: 1;
+      }
+      &-right {
+        flex: 1;
+      }
+      &-item {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+      }
+      &-icon {
+        width: 45px;
+        margin-right: 5px;
+      }
+      &-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+    &__footer {
+      text-align: center;
+      &-contact {
+        display: inline-block;
+        background-color: #000;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        min-width: 0px;
+        padding: 6px 12px;
+      }
+    }
+
+  }
+  &-right {
+    flex: 5;
+    padding: 0 12px;
+    &__img {
+      width: 100%
+    }
+  }
+}

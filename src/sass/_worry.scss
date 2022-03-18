@@ -1,0 +1,49 @@
+.worry {
+  padding-bottom: 40px;
+  &-container {
+    display: flex;
+    max-width: 1320px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  &-left {
+    flex: 1;
+    align-self: center;
+    &__img {
+      width: 100%;
+    }
+  }
+  &-right {
+    flex: 1;
+    margin-top: 40px;
+    &__idea {
+      margin: 10px 0 40px;
+      font-size: 18px;
+      border-radius: 15px;
+      padding: 16px 0;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      &1 {
+        background-color: $blue-color-1;
+      }
+      &2 {
+        background-color: $blue-color-2;
+      }
+      &3 {
+        background-color: #0db28d;
+      }
+    }
+  }
+  &-footer {
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    max-width: 1320px;
+    width: 90%;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

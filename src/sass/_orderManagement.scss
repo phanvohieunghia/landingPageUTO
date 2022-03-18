@@ -1,0 +1,45 @@
+.order-management {
+  background-color: #dcdde2;
+  padding: 55px;
+  &-container {
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  &-left {
+    flex: 1;
+    &__img {
+      width: 100%;
+    }
+  }
+  &-right {
+    flex: 1;
+    margin-top: 50px;
+    &__title {
+      color: #f37b5a;
+      font-weight: bold;
+      font-size: 27px;
+    }
+    &__item {
+      display: flex;
+      margin: 20px 0;
+      align-items: center;
+    }
+    &__icon {
+      $size-icon: 34px;
+      width: $size-icon;
+      height: $size-icon;
+      color: #fff;
+      padding: 7px;
+      background-color: #f37b5a;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    &__text {
+      flex: 1;
+      font-size: 19px;
+      font-weight: bold;
+    }
+  }
+
+}

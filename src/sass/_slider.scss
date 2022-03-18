@@ -1,0 +1,41 @@
+.slider {
+  position: relative;
+  display: flex;
+  background-color: $main-background;
+  justify-content: center;
+  padding: 10px;
+  &__slide {
+    text-align: center;
+  }
+  &__image {
+    border-radius: 14px;
+    width: 70vw;
+  }
+  &__left-arrow, &__right-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    z-index: 10;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+  }
+  &__left-arrow {
+    left: 32px;
+  }
+  &__right-arrow {
+    right: 32px;
+  }
+}
+.slider2 {
+  overflow: hidden;
+  background-color: $main-background;
+  &__slide {
+    padding: 10px 0;
+  }
+  &__img {
+    border-radius: 24px;
+    width: 80vw;
+    margin: 0 auto;
+  }
+}

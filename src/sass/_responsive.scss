@@ -1,0 +1,351 @@
+// ALl
+@media only screen and (max-width: 1200px) {
+  .benefit-container {
+    &__background1 {
+      display: block;
+      position: static;
+      width: 90%;
+      margin: 0 auto;
+      transform: none;
+    }
+    &__background2 {
+      display: block;
+      position: static;
+      width: 100%;
+      margin: 0 auto;
+      transform: none;
+    }
+  }
+  .daily-control__row1 {
+    flex-direction: column;
+    &-left {
+      border-radius: 15px;
+      border-bottom: 2px solid #000;
+    }
+    &-right {
+      text-align: center;
+      &__img {
+        width: 70%;
+      }
+    }
+  }
+  .complain {
+    &-container {
+      flex-direction: column;
+    }
+    &-left {
+      &__title {
+        margin: 40px auto 20px;
+      }
+    }
+    &-right {
+      padding-top: 40px;
+      text-align: center;
+      &__img {
+        width: 80%;
+      }
+    }
+  }
+}
+
+// Mobile devices (min-width: 320)
+@media only screen and (max-width: 480px) {
+  .header {
+    &-btn {
+      &__btn {
+        height: 38px;
+      }
+    }
+    &-img {
+      &__img {
+        height: 38px;
+      }
+    }
+  }
+  .slider2 {
+    &__img {
+      width: 95vw;
+    }
+  }
+  .worry {
+    &-container {
+      flex-direction: column;
+    }
+    &-footer {
+      padding: 10px;
+      font-size: 18px;
+    }
+    &-right {
+      margin-top: 20px;
+      &__idea {
+        margin: 0 0 20px;
+        font-size: 16px;
+        padding: 16px 5px;
+      }
+    }
+  }
+  .discount {
+    &-title {
+      font-size: 27px;
+    }
+    &-container {
+      flex-direction: column;
+      &__left {
+        &-title {
+        padding: 10px 20px;
+        font-size: 22px;
+        }
+        &-content {
+          font-size: 19px;
+          padding: 25px 15px 15px;
+        }
+      }
+    }
+    &-price {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      &__title{
+        &-content {
+          font-size: 16px;
+        }
+        &-item {
+          padding: 0 2px;
+        }
+      }
+    }
+  }
+  .discountItem {
+    border-radius: 10px;
+    &__content {
+      font-size: 16px;
+    }
+    &__item {
+    border-radius: 10px;
+    }
+  }
+  .delivery {
+    &-empty {
+      height: 180px;
+    }
+    &-container {
+      &__content {
+        padding: 70px 10px 20px;
+      }
+      &__title {
+        font-size: 18px;
+      }
+      &__item {
+        &-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .benefit {
+    &-container {
+      &__title {
+        font-size: 20px;
+      }
+      &__content {
+        padding: 50px 15px 20px;
+      }
+      &__icon {
+        width: $icon-check-size-m;
+        height: $icon-check-size-m;
+      }
+      &__text {
+        font-size: 16px;
+        // line-height: 1.4;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .order-management {
+    padding: 20px;
+    &-container {
+      flex-direction: column;
+    }
+    &-right {
+      &__icon {
+        width: $icon-check-size-m;
+        height: $icon-check-size-m;
+      }
+      &__title {
+        font-size: 24px;
+        text-align: center;
+      }
+      &__text {
+          font-size: 16px;
+      }
+    }
+  }
+  .daily-control {
+    margin: 40px 0;
+    &__row1 {
+      &-left {
+        &__title {
+          font-size: 20px;
+        }
+        &__content {
+          padding: 10px 5px 0px 15px;
+        }
+        &__text {
+          font-size: 16px;
+        }
+        &__icon {
+          width: $icon-check-size-m;
+          height: $icon-check-size-m;
+        }
+      }
+    }
+  }
+  .complain{
+    padding: 0 0 40px 0;
+    &-left {
+      &__title {
+        font-size: 20px;
+      }
+      &__content {
+        flex-direction: column;
+      }
+
+    }
+  }
+  .footer {
+    padding: 30px 0 10px;
+    &-container {
+      flex-direction: column;
+    }
+    &-two {
+      &__title {
+        margin-bottom: 20px;
+      }
+      &__logo {
+        width: 50px;
+        margin-right: 40px;
+        &-zalo {
+          margin-right: 0px;
+        }
+        &-social {
+          margin: 16px 0;
+        }
+        &-app {
+          margin-bottom: 20px;
+        text-align: center;
+        } 
+      }
+    }
+    &-copyright {
+      width: 90%;
+      &__content {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// iPads, Tablets
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .slider2 {
+    &__img {
+      width: 95vw;
+    }
+  }
+  .worry {
+    &-container {
+      flex-direction: column;
+    }
+    &-right {
+      &__idea {
+        padding: 16px 5px;
+        margin: 0 0 20px;
+        font-size: 16px;
+      }
+    }
+  }
+  .discount {
+    &-title {
+      font-size: 44px;
+    }
+    &-container {
+      flex-direction: column;
+    }
+  }
+  .discountItem {
+    &__content {
+      font-size: 18px;
+    }
+  }
+  .delivery {
+    &-empty {
+      height: 180px;
+    }
+  }
+  .order-management-container {
+    flex-direction: column;
+  }
+  .complain-left{
+    &__title {
+      font-size: 23px;
+    }
+    &__content {
+      flex-direction: column;
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  .footer {
+    &-container {
+      flex-direction: column;
+    }
+    &-two {
+      &__logo-app {
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Small screens, laptops
+@media only screen and (min-width: 769px) and (max-width: 1020px) {
+  .slider2 {
+    &__img {
+      width: 90vw;
+    }
+  }
+  .discount {
+    &-title {
+      font-size: 56px;
+    }
+    &-container {
+      flex-direction: column;
+    }
+  }
+  .delivery {
+    &-empty {
+      height: 250px;
+    }
+  }
+  .order-management-container {
+    flex-direction: column;
+  }
+}
+
+// Desktops, large screens
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .slider2 {
+    &__img {
+      width: 90vw;
+    }
+  }
+  .delivery {
+    &-empty {
+      height: 300px;
+    }
+  }
+}
+
+// and more —  Extra large screens, TV
+@media only screen and (min-width: 1201px) {
+
+}

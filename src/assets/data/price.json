@@ -1,0 +1,27 @@
+[
+  {
+    "order" : 500,
+    "discount": -500,
+    "remainder": 27500
+  },
+  {
+    "order" : 1000,
+    "discount": -1000,
+    "remainder": 27000
+  },
+  {
+    "order" : 2000,
+    "discount": -2000,
+    "remainder": 26000
+  },
+  {
+    "order" : 5000,
+    "discount": -2500,
+    "remainder": 25500
+  },
+  {
+    "order" : 10000,
+    "discount": -3000,
+    "remainder": 25000
+  }
+]
