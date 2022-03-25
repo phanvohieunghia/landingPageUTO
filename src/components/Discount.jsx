@@ -1,7 +1,7 @@
 import React from 'react'
 import MoneyImg from '../assets/img/money.png'
 import { default as Item } from './DiscountItem'
-import PriceData from '../assets/data/price.json'
+import PriceData from '../assets/data/price'
 
 const Discount = () => {
   return (
@@ -42,7 +42,7 @@ const Discount = () => {
           PriceData.map((price, index) => {
             return (
               <Item
-              key={index}
+                key={index}
                 order={price.order}
                 discount={price.discount}
                 remainder={price.remainder}

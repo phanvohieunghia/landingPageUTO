@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import Slider from './components/Slider'
+// import Slider from './components/Slider'
 import SimpleSlider from './components/SimpleSlider'
 import Worry from './components/Worry'
 import Discount from './components/Discount'
@@ -9,7 +9,6 @@ import Footer from './components/Footer'
 import OrderManagement from './components/OrderManagement'
 import DailyControl from './components/DailyControl'
 import Complain from './components/Complain'
-
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
       <DailyControl />
       <Complain />
       <Footer />
-
     </div>
   );
 }
